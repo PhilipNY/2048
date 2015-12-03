@@ -1,16 +1,5 @@
 #include "2048.h"
 
-void up();
-void down();
-void left();
-void right();
-void new_item();
-void print_edge(char*, char*, char*);
-void print_board();
-int reach_goal(uint32_t goal);
-char get_move();
-void cheat();
-
 void init_map()
 {
     int i, j;
